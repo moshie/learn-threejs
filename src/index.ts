@@ -78,7 +78,7 @@ plane.receiveShadow = true;
 scene.add(plane);
 
 const torusKnot = new THREE.Mesh(
-  new THREE.TorusKnotGeometry(0.4, 0.15, 30, 20),
+  new THREE.TorusKnotGeometry(0.4, 0.15, 100, 50),
   shinyMaterial
 );
 torusKnot.position.x = 2;
